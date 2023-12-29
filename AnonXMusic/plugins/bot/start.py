@@ -27,7 +27,7 @@ from strings import get_string
 
 
 
-BOT_PICS = [
+YUMI_PICS = [
 "https://telegra.ph/file/43acb316e80a3dd1b04ed.jpg",
 "https://telegra.ph/file/3eed0db3b21efdcc2d055.jpg",
 "https://telegra.ph/file/8825c71515d06709f9b7d.jpg",
