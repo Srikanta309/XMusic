@@ -86,12 +86,6 @@ async def get_thumb(videoid):
             (255, 255, 255),
             font=font,
         )
-        draw.line(
-            [(55, 660), (1220, 660)],
-            fill="white",
-            width=5,
-            joint="curve",
-        )
         draw.ellipse(
             [(918, 648), (942, 672)],
             outline="white",
