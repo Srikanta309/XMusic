@@ -107,3 +107,12 @@ async def get_thumb(videoid):
     except Exception as e:
         print(e)
         return YOUTUBE_IMG_URL
+
+
+#fonts 
+
+         font2 = ImageFont.truetype('AnonXMusic/assets/font2.ttf', 70)
+
+         image4 = ImageDraw.Draw(image2)
+         image4.text((670, 150), "ADDED TO QUEUE", fill="white", font = font2, stroke_width=2, stroke_fill="white", align ="left") 
+
