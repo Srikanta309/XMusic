@@ -7,9 +7,9 @@ from youtubesearchpython.__future__ import VideosSearch
 import asyncio
 import config
 from AnonXMusic import app
-from AnonXmusic.misc import _boot_
-from AnonXmusic.plugins.sudo.sudoers import sudoers_list
-from AnonXmusic.zexx import EMOJIOS, STICKER
+from AnonXMusic.misc import _boot_
+from AnonXMusic.plugins.sudo.sudoers import sudoers_list
+from AnonXMusic.zexx import EMOJIOS, STICKER
 from AnonXMusic.utils.database import get_served_chats, get_served_users, get_sudoers
 from AnonXMusic.utils import bot_sys_stats
 from AnonXMusicutils.database import (
