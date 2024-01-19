@@ -12,7 +12,7 @@ from AnonXMusic.plugins.sudo.sudoers import sudoers_list
 from AnonXMusic.zexx import EMOJIOS, STICKER
 from AnonXMusic.utils.database import get_served_chats, get_served_users, get_sudoers
 from AnonXMusic.utils import bot_sys_stats
-from AnonXMusicutils.database import (
+from AnonXMusic.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
