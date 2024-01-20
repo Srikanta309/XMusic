@@ -34,10 +34,6 @@ UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/srikanta309/XMusic",
 )
-ALON_BSDK = getenv(
-    "ALON_BSDK",
-    "https://github.com/Srikanta309/XMusic",
-)
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
