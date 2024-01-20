@@ -10,7 +10,7 @@ from PIL import (Image, ImageDraw, ImageEnhance, ImageFilter,
 from unidecode import unidecode
 
 from youtubesearchpython.__future__ import VideosSearch
-from AnonXMusic as app
+from AnonXMusic import app
 from config import YOUTUBE_IMG_URL
 
 
