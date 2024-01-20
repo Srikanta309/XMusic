@@ -34,10 +34,10 @@ async def song(client: app, message: Message):
             ],
             "outtmpl": f"downloads/{song_title}",
         }
-        await aux.edit("**𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ...**")
+        await aux.edit("𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ...")
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             ydl.download(song_link)
-        await aux.edit("**𝐔𝐩𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ...**")
+        await aux.edit("𝐔𝐩𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ...")
         await message.reply_audio(f"downloads/{song_title}.mp3")
         try:
             os.remove(f"downloads/{song_title}.mp3")
