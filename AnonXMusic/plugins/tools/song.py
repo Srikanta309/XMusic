@@ -14,7 +14,7 @@ async def song(client: app, message: Message):
     aux = await message.reply_text("**🔄 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 ...**")
     if len(message.command) < 2:
         return await aux.edit(
-            "**🤖 𝐆𝐢𝐯𝐞 🙃 𝐌𝐮𝐬𝐢𝐜 💿 𝐍𝐚𝐦𝐞 😍\n💞 𝐓𝐨 🔊 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 🥀 𝐒𝐨𝐧𝐠❗**"
+            "Gɪᴠᴇ ᴍᴜsɪᴄ ɴᴀᴍᴇ ᴛᴏ ᴅᴏᴡɴʟᴏʀᴅ sᴏɴɢ"
         )
     try:
         song_name = message.text.split(None, 1)[1]
