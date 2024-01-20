@@ -36,7 +36,7 @@ UPSTREAM_REPO = getenv(
 )
 ALON_BSDK = getenv(
     "ALON_BSDK",
-    "https://te.legra.ph/file/e6471d19bd04a5095436a.mp4",
+    "https://telegra.ph/file/37b65a7e12aa205051a1b.mp4",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
