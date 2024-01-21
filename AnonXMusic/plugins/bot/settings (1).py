@@ -93,7 +93,7 @@ async def settings_back_markup(client, CallbackQuery: CallbackQuery, _):
 @app.on_callback_query(filters.regex("gib_source"))
 async def gib_repo_callback(_, callback_query):
     await callback_query.edit_message_media(
-        media=InputMediaVideo("https://telegra.ph/file/37b65a7e12aa205051a1b.mp4", has_spoiler=True),
+        media=InputMediaVideo("https://graph.org/file/f491c046a6b6f1ab76453.mp4", has_spoiler=True),
         reply_markup=InlineKeyboardMarkup(
             [
                 [close_button]
