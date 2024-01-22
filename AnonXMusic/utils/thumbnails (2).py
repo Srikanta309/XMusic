@@ -116,10 +116,10 @@ async def get_thumb(videoid):
             image2.paste(circle, (0,0), mask = circle)
 
             # fonts
-            font1 = ImageFont.truetype('AarohiX/assets/font.ttf', 30)
-            font2 = ImageFont.truetype('AarohiX/assets/font2.ttf', 70)
-            font3 = ImageFont.truetype('AarohiX/assets/font2.ttf', 40)
-            font4 = ImageFont.truetype('AarohiX/assets/font2.ttf', 35)
+            font1 = ImageFont.truetype('AnonXMusic/assets/font.ttf', 30)
+            font2 = ImageFont.truetype('AnonXMusic/assets/font2.ttf', 70)
+            font3 = ImageFont.truetype('AnonXMusic/assets/font2.ttf', 40)
+            font4 = ImageFont.truetype('AnonXMUsic/assets/font2.ttf', 35)
 
             image4 = ImageDraw.Draw(image2)
             image4.text((10, 10), "DIL[AAROHI] x MUSIC", fill="white", font = font1, align ="left") 
