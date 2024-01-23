@@ -51,7 +51,7 @@ def welcomepic(pic, user, chatname, id, uname):
     pfp = circle(pfp)
     pfp = pfp.resize((447, 447))
     draw = ImageDraw.Draw(background)
-    font = ImageFont.truetype('AnonXMusic/assets/font.ttf', size=40)
+    font = ImageFont.truetype('AnonXMusic/assets/font.ttf', size=45)
     welcome_font = ImageFont.truetype('AnonXMusic/assets/font.ttf', size=60)
     draw.text((730, 250), f'NAME: {user}', fill=(255, 255, 255), font=font)
     draw.text((730, 335), f'ID: {id}', fill=(255, 255, 255), font=font)
