@@ -54,7 +54,7 @@ def welcomepic(pic, user, chatname, id, uname):
     font = ImageFont.truetype('AnonXMusic/assets/font.ttf', size=45)
     welcome_font = ImageFont.truetype('AnonXMusic/assets/font.ttf', size=60)
     draw.text((730, 250), f'NAME: {user}', fill=(255, 255, 255), font=font)
-    draw.text((730, 335), f'ID: {id}', fill=(255, 255, 255), font=font)
+    draw.text((730, 320), f'ID: {id}', fill=(255, 255, 255), font=font)
     draw.text((730, 380), f"USERNAME : {uname}", fill=(255, 255, 255), font=font)
     pfp_position = (151, 139)
     background.paste(pfp, pfp_position, pfp)
