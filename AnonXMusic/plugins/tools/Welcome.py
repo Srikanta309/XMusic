@@ -5,7 +5,7 @@ from PIL import ImageDraw, Image, ImageFont, ImageChops
 from pyrogram import *
 from pyrogram.types import *
 from logging import getLogger
-from AarohiX import app
+from AnonXMusic import app
 
 LOGGER = getLogger(__name__)
 
