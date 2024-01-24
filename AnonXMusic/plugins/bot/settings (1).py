@@ -93,15 +93,15 @@ async def settings_back_markup(client, CallbackQuery: CallbackQuery, _):
 @app.on_callback_query(filters.regex("gib_source"))
 async def gib_repo_callback(_, callback_query):
     await callback_query.edit_message_media(
-        media=InputMediaVideo("https://graph.org/file/f491c046a6b6f1ab76453.mp4", has_spoiler=True),
+        media=InputMediaVideo("https://telegra.ph/file/bb5db43a2d9d71954200f.mp4", has_spoiler=True),
         reply_markup=InlineKeyboardMarkup(
             [
-                [close_button]
+                [back_button]
             ]
         ),
     )
 
-close_button = InlineKeyboardButton("• ᴄʟᴏsᴇ •", callback_data="close")
+close_button = InlineKeyboardButton(" ʙᴀᴄᴋ ", callback_data="back")
 
 
 
