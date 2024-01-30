@@ -88,7 +88,7 @@ async def get_thumb(videoid):
         )
         draw.line(
             [(55, 660), (1220, 660)],
-            fill="white",
+            fill="blue",
             width=5,
             joint="curve",
         )
