@@ -6,7 +6,7 @@ import wget
 import time
 import yt_dlp
 from urllib.parse import urlparse
-from AarohiX import app
+from AnonXMusic import app
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
@@ -14,7 +14,7 @@ from pyrogram.types import Message
 # ------------------------------------------------------------------------------- #
 
 
-                     #   INSTAGRAM REELS LELO SAB  #
+                     #   INSTAGRAM REELS DOWNLORD LELE BOSDIKE  #
         
 
 # ------------------------------------------------------------------------------- #
