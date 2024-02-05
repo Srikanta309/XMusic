@@ -10,8 +10,8 @@ from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
 
 from config import BANNED_USERS, lyrical
-from AarohiX import app
-from AarohiX.utils.decorators.language import language
+from AnonXMusic import app
+from AnonXMusic.utils.decorators.language import language
 
 
 api_key = "Vd9FvPMOKWfsKJNG9RbZnItaTNIRFzVyyXFdrGHONVsGqHcHBoj3AI3sIlNuqzuf0ZNG8uLcF9wAd5DXBBnUzA"
