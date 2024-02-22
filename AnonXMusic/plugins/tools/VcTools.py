@@ -28,7 +28,7 @@ async def brah3(app :app, message:Message):
            try:
              await message.reply(f"{text} 💞")
            except:
-             pass
+             pass ({from_user.mention})
 
 
 @app.on_message(filters.command("math", prefixes="/"))
